@@ -22,32 +22,45 @@ class App extends Component {
     // {header.map(headerName => (<th>{headerName}</th>))}
     // {list1.map(menber => (<td>{menber}</td>))}
     return (
-
         <div class="bs-member-list">
           <div class="bs-member-list__title">
             {listTitle}
           </div>
 
           <table>
-            <thead class="scrollHead">
-              {header.map(headerName => (<th class="tableHeader">{headerName}</th>))}
+            <thead class="bs-member-list__head">
+              {header.map(headerName => (<th class="bs-member-list__head__list">{headerName}</th>))}
             </thead>
-            <tbody class="scrollBody">
-              <tr class="test">{list1.map(menber => (<td class="tableBody">{menber}</td>))}</tr>
-              <tr class="test">{list2.map(menber => (<td class="tableBody">{menber}</td>))}</tr>
-              <tr class="test">{list1.map(menber => (<td class="tableBody">{menber}</td>))}</tr>
-              <tr class="test">{list2.map(menber => (<td class="tableBody">{menber}</td>))}</tr>
-              <tr class="test">{list1.map(menber => (<td class="tableBody">{menber}</td>))}</tr>
-              <tr class="test">{list2.map(menber => (<td class="tableBody">{menber}</td>))}</tr>
-              <tr class="test">{list1.map(menber => (<td class="tableBody">{menber}</td>))}</tr>
-              <tr class="test">{list2.map(menber => (<td class="tableBody">{menber}</td>))}</tr>
-              <tr class="test">{list1.map(menber => (<td class="tableBody">{menber}</td>))}</tr>
-              <tr class="test">{list2.map(menber => (<td class="tableBody">{menber}</td>))}</tr>
+            <tbody class="bs-member-list__body">
+              <tr>{list1.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list2.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list1.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list2.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list1.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list2.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list1.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list2.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list1.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list2.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list1.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list2.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list1.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list2.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list1.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list2.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list1.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list2.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list1.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list2.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list1.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list2.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list1.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list2.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list1.map(menber => (<td>{menber}</td>))}</tr>
+              <tr>{list2.map(menber => (<td>{menber}</td>))}</tr>
             </tbody>
           </table>
-
         </div>
-
     )
   }
 }
